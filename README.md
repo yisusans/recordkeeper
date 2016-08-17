@@ -2,7 +2,7 @@
 
 Recordkeeper is a ruby gem that works like Python's Counter method.  Built as a monkey patch to the Array class, recordkeeper takes an array and returns a hash where the keys are the array's values, and the values are the instances in which the values appear in the original array.
 
-So for example
+So for example:
 
 [1, 1, 1, 4, 2, 5].recordkeeper returns {1=>3, 4 => 1, 2 => 1, 5=>1}
 ["apple", "apple", "banana", "cartoon"].recordkeeper returns {"apple"=>2, "banana"=>1, "cartoon"=>1}
@@ -35,7 +35,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/recordkeeper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yisusans/recordkeeper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+Make a pull request if you want to add more tests!  Or if you've found unexpected bugs.  OR if you want to make my code faster :).
 
 
 ## License
