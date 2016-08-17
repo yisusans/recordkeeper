@@ -13,8 +13,12 @@ describe Recordkeeper do
     expect(['a', 1, :b, 'b', :a].recordkeeper).to eq ({"a"=>1, 1=> 1, :b=>1, "b"=>1, :a=>1})
   end
 
+  it 'can deal with a nested array' do
+    expect([{1=> "a"}, {1=> "a"}, 1, 2].recordkeeper).to eq({ {1=>"a"}=>2, 1=>1, 2=>1 })
+  end
+
   it 'returns an empty hash' do
     expect([].recordkeeper).to eq({})
   end
-  
+
 end
