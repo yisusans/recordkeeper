@@ -5,6 +5,7 @@ Recordkeeper is a ruby gem that works like Python's Counter method.  Built as a 
 So for example:
 
 [1, 1, 1, 4, 2, 5].recordkeeper returns {1=>3, 4 => 1, 2 => 1, 5=>1}
+
 ["apple", "apple", "banana", "cartoon"].recordkeeper returns {"apple"=>2, "banana"=>1, "cartoon"=>1}
 
 ## Installation
