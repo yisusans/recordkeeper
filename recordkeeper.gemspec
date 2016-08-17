@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yi.susans@gmail.com"]
 
   spec.summary       = %q{Recordkeeper is an array method that takes an array and returns a hash with a record of the times an element within the array is repeated.}
-  spec.description   = %q{Built to mimic Python's counter method.  This gem adds a method to the Array class.}
+  spec.description   = %q{Built to mimic Python's counter method.  This gem monkey patches a method to the Array class. Recordkeeper takes an array and returns a hash with a record of the number of times an element within the array is repeated}
   # spec.homepage      = "Todo: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
