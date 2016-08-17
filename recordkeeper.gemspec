@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Susan Yi"]
   spec.email         = ["yi.susans@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Recordkeeper is an array method that takes an array and returns a hash with a record of the times an element within the array is repeated.}
+  spec.description   = %q{Built to mimic Python's counter method.  This gem adds a method to the Array class.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
