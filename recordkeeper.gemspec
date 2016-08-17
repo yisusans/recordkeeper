@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Recordkeeper is an array method that takes an array and returns a hash with a record of the times an element within the array is repeated.}
   spec.description   = %q{Built to mimic Python's counter method.  This gem adds a method to the Array class.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  # spec.homepage      = "Todo: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
