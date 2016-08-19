@@ -14,7 +14,7 @@ module Recordkeeper
     end
 
     def array_to_hash
-      Hash[arr.map { |elm| [elm, 0] } ]
+      Hash[self.map { |elm| [elm, 0] } ]
     end
   end
 end
